@@ -151,7 +151,7 @@ const animals = [
   },
 ];
 
-const categories = [
+const Categories = [
   {
     id: "1",
     image: "tiger",
@@ -161,6 +161,33 @@ const categories = [
   {
     id: "2",
     image: "snake",
+    category: "reptiles",
+    slug: "reptiles",
+  },
+  {
+    id: "3",
+    image: "stingray",
+    category: "ocean creatures",
+    slug: "ocean-creatures",
+  },
+  {
+    id: "4",
+    image: "donkey",
+    category: "mammals",
+    slug: "mammals",
+  },
+];
+
+const categories = [
+  {
+    id: "1",
+    image: "tiger",
+    category: "cats",
+    slug: "cats",
+  },
+  {
+    id: "2",
+    image: "tiger",
     category: "reptiles",
     slug: "reptiles",
   },
